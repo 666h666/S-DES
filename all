@@ -201,7 +201,6 @@ def try_key(cipher_text, plain_text):
     return None
 
 def brute_force_decrypt(cipher_text, plain_text):
-    num_threads = 5  # 可以根据你的CPU核心数调整线程数
     threads = []
     results = []
 
@@ -267,10 +266,6 @@ result_label.pack(pady=10)
 # 运行主循环
 root.mainloop()
 
-
-
-
-# 其他代码...
 
 
 
